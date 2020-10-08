@@ -12,9 +12,9 @@ import Launch from './components/Launch';
 const App = () => {
   return (
     <>
-      <SafeAreaView>
+      <View>
         <Launch />
-      </SafeAreaView>
+      </View>
     </>
   );
 };
