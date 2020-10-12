@@ -9,12 +9,8 @@ near_min_distance INT,
 near_max_distance INT,
 max_rating INT
 );
-INSERT INTO users(email, password, english, japanese)
+INSERT INTO users(email, password, english, japanese, near_min_distance, near_max_distance,max_rating )
 VALUES
-('robnettsean22@gmail.com', 'blind22', True, false, 10, 10, )
-
-```
-
-```
+('robnettsean22@gmail.com', 'blind22', True, false, 0, 10, 5 )
 
 ```
